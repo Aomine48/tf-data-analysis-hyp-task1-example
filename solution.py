@@ -12,7 +12,6 @@ def solution(x_success: int,
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-def solution(x_success, x_cnt, y_success, y_cnt):
     res = proportions_ztest([x_success, y_success],
                             [x_cnt, y_cnt],
                             alternative='smaller')
